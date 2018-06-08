@@ -64,7 +64,7 @@ namespace NumberNames
                     // Check if the number is negative
                     if (number < 0)
                     {
-                        Console.WriteLine("Answer .: Negative " + ConvertNumberToString(number));
+                        Console.WriteLine("Answer .: Negative " + ConvertNumberToString(Math.Abs(number)));
                     }
                     // Check if the number is zero
                     else if (number == 0)
